@@ -1,0 +1,141 @@
+.header 
+{
+    padding: 20px;
+    background: #ffffff;
+    color: white;
+    margin-bottom: -50px;
+
+}
+
+.topnavbar
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+
+}
+
+.bottomnavbar
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+  
+li 
+{
+    float: right;
+}
+  
+li a 
+{
+    display: block;
+    color: rgb(255, 182, 72);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+body
+{
+    background-color: rgb(209, 240, 180);
+    margin: auto;
+}
+
+h1
+{
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    color:rgb(255, 182, 72);
+}
+
+.logo
+{
+    position: left;
+}
+
+.home
+{
+    text-align: right;
+    font-size: 20px;
+}
+
+.faq
+{
+    text-align: right;
+    font-size: 20px;
+}
+
+.contact
+{
+    text-align: right;
+    font-size: 20px;
+}
+
+.login
+{
+    text-align: right;
+    font-size: 20px;
+}
+
+.register
+{
+    text-align: right;
+    font-size: 20px;
+}
+
+.divider-text 
+{
+    position: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+      
+}
+.divider-text span 
+{
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after 
+{
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+.btn-facebook 
+{
+    background-color: #405D9D;
+    color: #fff;
+    width: 20%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column 
+{
+    float: center;
+    width: 33.33%;
+    padding: 5px;
+}
+  
+  /* Clear floats after image containers */
+.row::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}

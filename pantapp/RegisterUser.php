@@ -5,8 +5,8 @@ echo $_GET["name"] . "<br>";
 echo $_GET["id"] . "<br>";
 echo $_GET["email"];
 
-$db = new SQLite3("DB/users.db");
-//$db->exec("CREATE TABLE posts(id INTEGER PRIMARY KEY, user TEXT, picture TEXT, coords TEXT, status TEXT, comment TEXT)");
+$db = new SQLite3("DB/posts.db");
+//$db->exec("CREATE TABLE posts(id INTEGER PRIMARY KEY, user TEXT, picture TEXT, long FLOAT, lat FLOAT, status TEXT, comment TEXT)");
 //$db->exec("CREATE TABLE users(userid TEXT, name TEXT, email TEXT,privileges TEXT,rating FLOAT, comments TEXT)");
 //$db->exec("INSERT INTO users(userid, name, email, privileges, rating, comments) VALUES('Test Person', 'Test@test.se', '123', 'admin', 3.5, 'test comment')");
 
@@ -15,6 +15,8 @@ $dbdata = new DatabaseCommunicator();
 
 
 //Examples on how to call functions 
+$dbdata->AddPostInDatabase($_GET["name"], "testPicture", "17.696198199999998", "59.8199335", "OPEN", "Comment, Bla Bla Bla")
+
 //$dbdata-> AddUserInDatabase($_GET['id'], $_GET['email'], $_GET['name'], "user", 0, "comment")
 //$dbdata->AddPostInDatabase("test user", "/img/picture", "long: 34.33, lat: 23,33", "OPEN", "Bla bla bla comment");
 //$dbdata->ChangeStatusOfPost(1, "OPENED");

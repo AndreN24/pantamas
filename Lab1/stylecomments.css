@@ -1,0 +1,89 @@
+  input[id=submit] {
+      width: 40%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      margin-left: 750px;
+      border-radius: 4px;
+      cursor: pointer;
+      
+    }
+  
+   #comment {
+      width: 600px;
+      height: 120px;
+      border: 3px solid #cccccc;
+      margin-left: -150px;
+      padding: 5px;
+      font-family: Tahoma, sans-serif;
+      background-position: bottom right;
+      background-repeat: no-repeat;
+    }
+
+  
+    input[id=name]{
+      width: 16%;
+      padding: 12px 20px;
+  
+      margin: 8px 0;
+      display: inline-block;
+      border: 2px solid #73AD21;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+  
+  
+    label {
+      color: black;
+      display: inline-block;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-left: 1000px;
+    }
+
+    input[id=commentText]{
+
+      margin-left: -200px;
+    }
+  
+    #sdiv{
+      margin-left: 2000px;
+
+    }
+    #search{
+      height: 30px;
+      width: 200px;
+
+    }
+    #searchbtn{
+      height : 30px;
+    }
+    h1 {
+      text-align: center;
+    }
+    body{
+      background-color: greenyellow;
+    }
+    strong {
+      margin-left: 850px;
+    }
+    em{
+      overflow: hidden;
+      max-width: 40ch;
+      word-break: break-all;
+    }
+    img{
+      width: 250px;
+      height: 250px;
+      
+    }
+    #logout{
+      margin-left: -2000px;
+    }
+    #search {
+      margin-left: 1800px;
+    }
+
